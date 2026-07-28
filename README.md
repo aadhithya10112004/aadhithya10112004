@@ -2,140 +2,96 @@
 
 **Software Developer | Java | Python | JavaScript | Full-Stack Developer**
 
-Welcome to my GitHub! I'm a passionate developer focused on building scalable applications and solving real-world problems through code. Currently seeking placement opportunities to contribute my skills in a dynamic team environment.
+Welcome — I build full‑stack apps and AI tools. Below I’ve added a concise analysis of my public repositories so visitors can quickly see what each project does, the main stack, and how to run or explore it.
 
 ---
 
-## 🚀 About Me
+## 🚀 Quick Portfolio Overview
 
-I'm a dedicated developer with hands-on experience in:
-- **Backend Development** (Java, Spring Boot, REST APIs)
-- **Full-Stack Applications** (JavaScript, React, responsive UI)
-- **AI/ML Projects** (Python, emotion detection, resume analysis)
-- **Database Design** (MySQL, MongoDB, SQL optimization)
-- **Problem-Solving** with clean code and best practices
-
-Passionate about learning new technologies and contributing to meaningful projects that make an impact.
+I work across backend systems (Java, Spring Boot), full‑stack apps (React/Vite), and AI/ML projects (Python, Streamlit, Transformers). The highlighted repos below show runnable demos, research prototypes, and learning projects.
 
 ---
 
-## 💼 Featured Projects
+## 🔎 Repository analysis (selected)
 
-### 🍔 Food Delivery Platform
-**Full-Stack Application** | Java | JavaScript | MySQL
-- Complete food delivery system with order management and payment integration
-- **Backend:** Spring Boot REST APIs, user authentication, order processing
-- **Frontend:** React-based UI with real-time order tracking
-- 📁 [Backend Repo](https://github.com/aadhithya10112004/food-delivery-backend) | [Frontend Repo](https://github.com/aadhithya10112004/food-delivery-frontend)
+- food-delivery-backend — Full-stack backend (Java 21, Spring Boot, Spring Security, JPA, MySQL). Implements JWT auth, role-based access, restaurant/menu/cart/orders APIs. Run locally:
 
-### 🤖 AI Resume Analyzer
-**Machine Learning Project** | Python
-- Intelligent resume evaluation system using AI/ML algorithms
-- Analyzes resume quality, suggests improvements, extracts key skills
-- 📁 [Repository](https://github.com/aadhithya10112004/AI-Resume-Analyzer)
+  mvn spring-boot:run
 
-### 🎤 Emotion Voice AI
-**AI/Audio Processing** | Python
-- Advanced emotion detection system from voice input
-- Analyzes tone, pitch, and speech patterns to identify emotions
-- 📁 [Repository](https://github.com/aadhithya10112004/EmotionVoiceAI)
+  Repo: https://github.com/aadhithya10112004/food-delivery-backend
 
-### 💬 Chat Application
-**Real-Time Communication** | Java
-- Multi-user chat platform with message persistence
-- Socket programming, database integration, user management
-- 📁 [Repository](https://github.com/aadhithya10112004/chatapplication)
+- food-delivery-frontend — Frontend for the food delivery app (React + Vite, React Router, Axios, Context API). Serves customer and admin UIs. Run locally:
 
-### 🍽️ Fridge Recipe
-**Web Application** | JavaScript | React
-- Smart recipe recommendation based on available ingredients
-- Interactive UI with ingredient search and filtering
-- 📁 [Repository](https://github.com/aadhithya10112004/fridge_recipe)
+  npm install
+  npm run dev
 
-### 🎯 Personal Portfolio
-**Showcase Website** | React | JavaScript
-- Professional portfolio demonstrating projects and skills
-- Responsive design with smooth animations
-- 📁 [Repository](https://github.com/aadhithya10112004/portfolio-react)
+  Repo: https://github.com/aadhithya10112004/food-delivery-frontend
 
-### 📚 Additional Projects
-- **Spring Boot Learning:** [Repository](https://github.com/aadhithya10112004/SpringBoot-Intern)
-- **Data Science:** NumPy workshops and Python fundamentals
-- **Analytics:** PowerBI session projects
+- AI-Resume-Analyzer — Streamlit app that extracts resume text, computes TF‑IDF vectors and cosine similarity against job descriptions; stores history in SQLite. Good demo of NLP basics and a quick way to score resumes. Run locally:
 
----
+  pip install -r requirements.txt
+  streamlit run app.py
 
-## 🛠️ Technical Stack
+  Repo: https://github.com/aadhithya10112004/AI-Resume-Analyzer
 
-| **Category** | **Technologies** |
-|---|---|
-| **Languages** | Java, Python, JavaScript, SQL, HTML/CSS |
-| **Backend** | Spring Boot, REST APIs, Microservices, JDBC |
-| **Frontend** | React, Responsive Design, DOM Manipulation |
-| **Databases** | MySQL, MongoDB, SQL Queries |
-| **AI/ML** | Python, Emotion Detection, Machine Learning Basics |
-| **Tools** | Git/GitHub, VS Code, IntelliJ IDEA, Maven, npm |
-| **Concepts** | OOP, Data Structures, APIs, Database Design, System Design |
+- EmotionVoiceAI — Streamlit app combining speech-to-text (Faster‑Whisper), transformer-based emotion detection, translation, and TTS (Edge‑TTS). Includes analytics dashboards and multilingual support. Run locally:
 
----
+  pip install -r requirements.txt
+  streamlit run app.py
 
-## 📈 GitHub Activity
+  Repo: https://github.com/aadhithya10112004/EmotionVoiceAI
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=aadhithya10112004&show_icons=true&theme=tokyonight&hide_border=true)
+- fridge_recipe — React + Vite project: a recipe recommender that suggests dishes based on available ingredients (UI template & components). Start with the Vite dev server.
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=aadhithya10112004&layout=compact&theme=tokyonight&hide_border=true)
+  npm install
+  npm run dev
+
+  Repo: https://github.com/aadhithya10112004/fridge_recipe
+
+- portfolio-react — Personal portfolio (React). README is minimal — see the repo for the deployed/demo code. Likely run with Vite/React dev scripts.
+
+  Repo: https://github.com/aadhithya10112004/portfolio-react
+
+- Smart_life — Streamlit-based wellness app integrating LLM chat, PDF summarization, news summarization, voice input, mood tracker, and SQLite for storage. env vars and requirements are outlined in the repo README. Run with:
+
+  pip install -r requirements.txt
+  streamlit run app.py
+
+  Repo: https://github.com/aadhithya10112004/Smart_life
+
+- AI-Medical-Assistant (MediCap) — Streamlit health assistant with medication info, disease prediction helpers, and a hospital finder. README includes a clear disclaimer and setup steps. Run with:
+
+  pip install -r requirements.txt
+  streamlit run app.py
+
+  Repo: https://github.com/aadhithya10112004/AI-Medical-Assistant
+
+- agentic_rag-BriefSync — Small RAG (retrieval-augmented generation) demo using PDF chunking, SentenceTransformers embeddings, Pinecone vector store, and Ollama for local LLM inference. Good for experimenting with PDF Q&A pipelines. Run with configured Pinecone + Ollama.
+
+  Repo: https://github.com/aadhithya10112004/agentic_rag-BriefSync
+
 
 ---
 
-## 🎓 Learning Journey
+## ✅ What I kept an eye on while analyzing
 
-**Currently focusing on:**
-- ✅ Advanced Spring Boot & Microservices Architecture
-- ✅ Full-Stack Development Best Practices
-- ✅ AI/ML Implementation and Real-world Applications
-- ✅ System Design and Scalability
-- ✅ RESTful API Design Patterns
+- Each project’s README (run steps, requirements) to confirm it’s runnable (most Streamlit or React/Vite apps).
+- Core stacks: Java + Spring for backend, React/Vite for frontends, Python/Streamlit for AI prototypes.
+- Where secrets or external services are required (Pinecone, Ollama, API keys) I noted them in the per‑repo summary.
 
 ---
 
-## 🎯 Placement Goals
+## 📈 How to explore further (for recruiters or contributors)
 
-I'm actively seeking:
-- 🔍 **Full-Time Positions** as a Software Developer/Engineer
-- 🔍 **Internship Opportunities** to gain industry experience
-- 🔍 **Challenging Projects** that leverage my technical skills
-- 🔍 **Growth-Oriented Teams** with mentorship opportunities
+1. Try the Streamlit demos first (AI-Resume-Analyzer, EmotionVoiceAI, Smart_life, AI-Medical-Assistant) — they start quickly and show AI capabilities.
+2. Run the food-delivery stack (frontend + backend) locally to see a full end-to-end system: start the backend (mvn spring-boot:run) then the frontend (npm run dev).
+3. For research on RAG pipelines, open agentic_rag-BriefSync and follow the config notes (Pinecone + Ollama).
 
 ---
 
-## 💡 What Sets Me Apart
+## 🎯 Placement & Collaboration
 
-✨ **Problem-Solving Mindset** - Break down complex problems into manageable solutions  
-✨ **Quick Learner** - Adapt to new technologies and frameworks rapidly  
-✨ **Full-Stack Capabilities** - Comfortable working across entire application stack  
-✨ **Clean Code** - Follow industry best practices and design patterns  
-✨ **Project Delivery** - Completed multiple end-to-end projects from concept to deployment  
-
----
-
-## 📞 Let's Connect
-
-- 🔗 **GitHub:** [github.com/aadhithya10112004](https://github.com/aadhithya10112004)
-- 💼 **Portfolio:** [View My Projects](https://github.com/aadhithya10112004/portfolio-react)
-- 📧 **Open to:** Collaborations, Internships, Full-Time Opportunities
-
----
-
-## 🌟 How to Explore My Work
-
-1. **Browse my repositories** - Check out the projects listed above
-2. **Star interesting projects** - Your support motivates me! ⭐
-3. **Fork and experiment** - Feel free to use my code as learning material
-4. **Connect with me** - Open to discussions and opportunities
-
----
-
-**Thank you for visiting! Let's build something amazing together. 🚀**
+I'm open to internships and full-time roles in backend, full-stack, or AI/ML engineering. If you'd like a live walkthrough of any project or a short demo, open an issue in the repo or contact me here on GitHub.
 
 ---
 
