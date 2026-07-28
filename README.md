@@ -1,104 +1,117 @@
-# 👋 Hi, I'm Aadhithya
+# Hi — I'm Aadhithya S.
 
-**Software Developer | Java | Python | JavaScript | Full-Stack Developer**
+Software Developer | Java · Python · JavaScript · Full‑Stack Engineer
 
-Welcome — I build full‑stack apps and AI tools. Below I’ve added a concise analysis of my public repositories so visitors can quickly see what each project does, the main stack, and how to run or explore it.
-
----
-
-## 🚀 Quick Portfolio Overview
-
-I work across backend systems (Java, Spring Boot), full‑stack apps (React/Vite), and AI/ML projects (Python, Streamlit, Transformers). The highlighted repos below show runnable demos, research prototypes, and learning projects.
+I build production-oriented backend systems, full‑stack web applications, and applied AI/ML prototypes. The README below summarizes my active repositories, their primary technologies, and the quickest steps to run or evaluate each project.
 
 ---
 
-## 🔎 Repository analysis (selected)
+## Portfolio overview
 
-- food-delivery-backend — Full-stack backend (Java 21, Spring Boot, Spring Security, JPA, MySQL). Implements JWT auth, role-based access, restaurant/menu/cart/orders APIs. Run locally:
+My work spans three main areas:
 
+- Backend systems: Java + Spring Boot, REST API design, authentication and authorization.
+- Frontend applications: React + Vite, responsive UI, client-side state and API integration.
+- AI/ML prototypes: Python + Streamlit, NLP and audio processing using transformer models.
+
+---
+
+## Repository summaries
+
+Below are selected public repositories with a one-line description, primary stack, and the fastest way to run them locally.
+
+- **food-delivery-backend** — Backend APIs for an online food delivery system. Stack: Java 21, Spring Boot, Spring Security, Spring Data JPA, MySQL (JWT authentication, role-based access).
+
+  Quick start:
+  ```bash
   mvn spring-boot:run
+  ```
+  Repository: https://github.com/aadhithya10112004/food-delivery-backend
 
-  Repo: https://github.com/aadhithya10112004/food-delivery-backend
+- **food-delivery-frontend** — React + Vite frontend for the food delivery platform (customer and admin interfaces). Stack: React, Vite, React Router, Axios, Context API.
 
-- food-delivery-frontend — Frontend for the food delivery app (React + Vite, React Router, Axios, Context API). Serves customer and admin UIs. Run locally:
-
+  Quick start:
+  ```bash
   npm install
   npm run dev
+  ```
+  Repository: https://github.com/aadhithya10112004/food-delivery-frontend
 
-  Repo: https://github.com/aadhithya10112004/food-delivery-frontend
+- **AI-Resume-Analyzer** — Streamlit application that extracts resume text, vectorizes with TF‑IDF, and matches resumes to job descriptions. Stack: Python, Streamlit, scikit-learn, SQLite.
 
-- AI-Resume-Analyzer — Streamlit app that extracts resume text, computes TF‑IDF vectors and cosine similarity against job descriptions; stores history in SQLite. Good demo of NLP basics and a quick way to score resumes. Run locally:
-
+  Quick start:
+  ```bash
   pip install -r requirements.txt
   streamlit run app.py
+  ```
+  Repository: https://github.com/aadhithya10112004/AI-Resume-Analyzer
 
-  Repo: https://github.com/aadhithya10112004/AI-Resume-Analyzer
+- **EmotionVoiceAI** — Speech-to-text, emotion classification and TTS demo with analytics dashboards. Stack: Python, Streamlit, Transformers, Faster‑Whisper, Edge‑TTS.
 
-- EmotionVoiceAI — Streamlit app combining speech-to-text (Faster‑Whisper), transformer-based emotion detection, translation, and TTS (Edge‑TTS). Includes analytics dashboards and multilingual support. Run locally:
-
+  Quick start:
+  ```bash
   pip install -r requirements.txt
   streamlit run app.py
+  ```
+  Repository: https://github.com/aadhithya10112004/EmotionVoiceAI
 
-  Repo: https://github.com/aadhithya10112004/EmotionVoiceAI
+- **fridge_recipe** — React + Vite recipe recommender that suggests dishes based on available ingredients.
 
-- fridge_recipe — React + Vite project: a recipe recommender that suggests dishes based on available ingredients (UI template & components). Start with the Vite dev server.
-
+  Quick start:
+  ```bash
   npm install
   npm run dev
+  ```
+  Repository: https://github.com/aadhithya10112004/fridge_recipe
 
-  Repo: https://github.com/aadhithya10112004/fridge_recipe
+- **portfolio-react** — Personal portfolio built with React (development scripts available in the repository).
 
-- portfolio-react — Personal portfolio (React). README is minimal — see the repo for the deployed/demo code. Likely run with Vite/React dev scripts.
+  Repository: https://github.com/aadhithya10112004/portfolio-react
 
-  Repo: https://github.com/aadhithya10112004/portfolio-react
+- **Smart_life** — Streamlit-based wellness application combining LLM chat, document summarization, news summarization, voice input, and a local SQLite store.
 
-- Smart_life — Streamlit-based wellness app integrating LLM chat, PDF summarization, news summarization, voice input, mood tracker, and SQLite for storage. env vars and requirements are outlined in the repo README. Run with:
-
+  Quick start:
+  ```bash
   pip install -r requirements.txt
   streamlit run app.py
+  ```
+  Repository: https://github.com/aadhithya10112004/Smart_life
 
-  Repo: https://github.com/aadhithya10112004/Smart_life
+- **AI-Medical-Assistant (MediCap)** — Health assistant built with Streamlit offering medication information, basic disease prediction helpers, and a hospital finder. Includes a medical disclaimer.
 
-- AI-Medical-Assistant (MediCap) — Streamlit health assistant with medication info, disease prediction helpers, and a hospital finder. README includes a clear disclaimer and setup steps. Run with:
-
+  Quick start:
+  ```bash
   pip install -r requirements.txt
   streamlit run app.py
+  ```
+  Repository: https://github.com/aadhithya10112004/AI-Medical-Assistant
 
-  Repo: https://github.com/aadhithya10112004/AI-Medical-Assistant
+- **agentic_rag-BriefSync** — Small RAG (retrieval-augmented generation) demo for PDF Q&A. Uses chunking, SentenceTransformers embeddings, Pinecone, and a local LLM (Ollama) for generation.
 
-- agentic_rag-BriefSync — Small RAG (retrieval-augmented generation) demo using PDF chunking, SentenceTransformers embeddings, Pinecone vector store, and Ollama for local LLM inference. Good for experimenting with PDF Q&A pipelines. Run with configured Pinecone + Ollama.
-
-  Repo: https://github.com/aadhithya10112004/agentic_rag-BriefSync
-
-
----
-
-## ✅ What I kept an eye on while analyzing
-
-- Each project’s README (run steps, requirements) to confirm it’s runnable (most Streamlit or React/Vite apps).
-- Core stacks: Java + Spring for backend, React/Vite for frontends, Python/Streamlit for AI prototypes.
-- Where secrets or external services are required (Pinecone, Ollama, API keys) I noted them in the per‑repo summary.
+  Repository: https://github.com/aadhithya10112004/agentic_rag-BriefSync
 
 ---
 
-## 📈 How to explore further (for recruiters or contributors)
+## Notes and prerequisites
 
-1. Try the Streamlit demos first (AI-Resume-Analyzer, EmotionVoiceAI, Smart_life, AI-Medical-Assistant) — they start quickly and show AI capabilities.
-2. Run the food-delivery stack (frontend + backend) locally to see a full end-to-end system: start the backend (mvn spring-boot:run) then the frontend (npm run dev).
-3. For research on RAG pipelines, open agentic_rag-BriefSync and follow the config notes (Pinecone + Ollama).
-
----
-
-## 🎯 Placement & Collaboration
-
-I'm open to internships and full-time roles in backend, full-stack, or AI/ML engineering. If you'd like a live walkthrough of any project or a short demo, open an issue in the repo or contact me here on GitHub.
+- Several projects require third-party services or API keys (for example, Pinecone, Ollama, NewsAPI, SerpAPI, and YouTube Data API). Check each repository's README for exact environment variables and configuration.
+- Streamlit projects in this portfolio typically start with `streamlit run app.py` and expose a local web UI on port 8501.
+- The food delivery application comprises two separate repositories (backend and frontend) and can be run end-to-end by starting the backend first and then the frontend.
 
 ---
 
-<div align="center">
+## How to evaluate or run demos quickly
 
-### 💪 "Code is poetry written for computers to execute and humans to understand"
+1. Streamlit demos (AI-Resume-Analyzer, EmotionVoiceAI, Smart_life, AI-Medical-Assistant) provide the fastest way to assess AI/ML work — they require minimal setup and run locally.
+2. For a full-stack demonstration, run `food-delivery-backend` then `food-delivery-frontend` and verify the API integration.
+3. For RAG or embedding experiments, review `agentic_rag-BriefSync` and follow the configuration instructions for Pinecone and Ollama.
 
-**Made with ❤️ by Aadhithya**
+---
 
-</div>
+## Opportunities & contact
+
+I am actively seeking internship and early-career full‑time roles in backend engineering, full‑stack development, or applied AI engineering. For a project walkthrough, code review, or a short demo, please open an issue in the relevant repository or contact me via GitHub.
+
+---
+
+Made with care by Aadhithya S.
